@@ -1,4 +1,8 @@
-[[redirects]]
-from = "/*"
-to = "/index.html"
-status = 200
+[build]
+  publish = "app-files"
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    Cache-Control = "public, max-age=604800"
+    Access-Control-Allow-Origin = "*"
