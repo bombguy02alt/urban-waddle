@@ -1,0 +1,10 @@
+// Code Generated and Licensed by: Marzipano Tool
+// Edited, Taken, and Created by: Edwin BD 
+// Assistant & Server Hosted by: Sakshi T
+// Date: 2025-07-28
+// Version: 1.2.0
+// Intented use for: Tait McKenzie
+
+Yaw and Pitch are still unknown and cannot utilize properly.
+Hotspot are easy to create and can be copied
+

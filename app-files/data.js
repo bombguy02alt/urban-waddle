@@ -102,7 +102,7 @@ var APP_DATA = {
         {
           "yaw": 1.4069024966312043,
           "pitch": 0.12378195919630741,
-          "title": "Equipment Service",
+          "title": "Equipment Services",
         }
       ]
     },
@@ -206,12 +206,6 @@ var APP_DATA = {
 
         },
         {
-          "yaw": 3.0715743590409588,
-          "pitch": 0.05375704137610704,
-          "title": "Camp Office",
-          "text": "<br>"
-        },
-        {
           "yaw": 2.167390984050482,
           "pitch": 0.0993463931821097,
           "title": "Pride Shop",
@@ -280,18 +274,6 @@ var APP_DATA = {
         }
       ],
       "infoHotspots": [
-        {
-          "yaw": -2.0111415494235985,
-          "pitch": 0.4652026662299633,
-          "title": "Panic Button / Silent Alarm",
-          "text": "Use the panic button/silent alarm to notified securies to this location"
-        },
-        {
-          "yaw": 2.631066827886487,
-          "pitch": 0.7900109416817145,
-          "title": "Panic Button / Silent Alarm",
-          "text": "Use the panic button/silent alarm to notified securies to this location"
-        },
         {
           "yaw": -1.1729424850559305,
           "pitch": -0.08579821874293359,
@@ -455,12 +437,6 @@ var APP_DATA = {
           "title": "Pride Shop",
           "text": "<br>"
         },
-        {
-          "yaw": -1.3185529947397523,
-          "pitch": -0.026216919153869256,
-          "title": "Whiteboard",
-          "text": "Use for telling infomation"
-        }
       ]
     },
     {
@@ -899,7 +875,7 @@ var APP_DATA = {
         {
           "yaw": 3.1157870463233897,
           "pitch": -0.028242847048382203,
-          "rotation": 0,
+          "rotation": 9.3,
           "target": "82-hallway-to-fitness-centre1"
         }
       ],
@@ -2948,7 +2924,7 @@ var APP_DATA = {
     },
     {
       "id": "58-elevator-basement",
-      "name": "elevator basement",
+      "name": "elevator basement Level",
       "levels": [
         {
           "tileSize": 256,
@@ -3027,22 +3003,42 @@ var APP_DATA = {
       "linkHotspots": [
         {
           "yaw": -3.0709003639488657,
+          "pitch": 0.4097645657478946,
+          "rotation": 3.141592653589793,
+          "target": "58-elevator-basement"
+  
+        },
+        {
+          "yaw": -3.0709003639488657,
           "pitch": 0.2097645657478946,
           "rotation": 3.141592653589793,
           "target": "60-near-elevator-loading-dock-and-family-changeroom"
+  
         },
         {
           "yaw": 2.760514882741118,
           "pitch": 0.07158012980670136,
           "rotation": 0,
-          "target": "59-inside-second-elevator-floor-1"
-        }
+          "target": "68-main-maglock-and-near-second-elevator-and-near-student-lounge"
+        },
+        {
+          "yaw": 2.760514882741118,
+          "pitch": -0.09158012980670136,
+          "rotation": 0,
+          "target": "101-stair-2-floor-3-near-elevator-2"
+        },
+        {
+          "yaw": 2.760514882741118,
+          "pitch": -0.25158012980670136,
+          "rotation": 0,
+          "target": "103-stair-2-floor-4-elevator-2-near-studio-6"
+        },
       ],
       "infoHotspots": []
     },
     {
       "id": "60-near-elevator-loading-dock-and-family-changeroom",
-      "name": "near elevator loading dock and family changeroom",
+      "name": "Floor 1 near elevator loading dock and family changeroom",
       "levels": [
         {
           "tileSize": 256,
@@ -3474,7 +3470,7 @@ var APP_DATA = {
     },
     {
       "id": "68-main-maglock-and-near-second-elevator-and-near-student-lounge",
-      "name": "main maglock and near second elevator and near student lounge",
+      "name": "Floor 2 main maglock and near second elevator and near student lounge",
       "levels": [
         {
           "tileSize": 256,
@@ -4247,7 +4243,7 @@ var APP_DATA = {
         {
           "yaw": -1.7945362520428265,
           "pitch": -0.10697563403453358,
-          "title": "Accesability Elevator",
+          "title": "Accessibility Elevator",
           "text": "<br>"
         }
       ]
@@ -4360,7 +4356,7 @@ var APP_DATA = {
     },
     {
       "id": "84-near-main-maglock-and-near-fitness-centre",
-      "name": "near main maglock and near fitness centre",
+      "name": "Floor 2 near main maglock and near fitness centre",
       "levels": [
         {
           "tileSize": 256,
@@ -5635,3 +5631,10 @@ var APP_DATA = {
     "viewControlButtons": true
   }
 };
+
+// Code Generated and Licensed by: Marzipano Tool
+// Edited, Taken, and Created by: Edwin BD 
+// Assistant & Server Hosted by: Sakshi T
+// Date: 2025-07-28
+// Version: 1.2.0
+// Intented use for: Tait McKenzie
